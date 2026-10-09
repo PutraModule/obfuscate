@@ -1,0 +1,16 @@
+{
+  "name": "obfuscate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "obfuscate": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "js-confuser": "^1.7.3"
+  }
+}
